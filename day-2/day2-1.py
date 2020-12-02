@@ -1,6 +1,6 @@
 with open("input.txt") as f:
     data = f.read().splitlines()
-
+    
 def day2_1(data):
     count = 0
     for line in data:
