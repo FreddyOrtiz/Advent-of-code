@@ -1,7 +1,7 @@
 from operator import xor
 
 with open("input.txt") as f:
-    data = f.read().splitlines()
+    data = f.read().splitlines() 
 
 def day2_2(data):
     count = 0
