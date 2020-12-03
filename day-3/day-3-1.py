@@ -1,14 +1,13 @@
 with open("input.txt") as f:
     data = f.read().splitlines()
 
-dx = 0
-dy = 0
-trees = 0
+dx,dy = 0, 0
+count = 0
 
 for line in data:
     if line[dx % len(line)] == "#":
-        trees += 1
+        count += 1
     dx += 3
     dy += 1
 
-print(trees)
+print(count)
